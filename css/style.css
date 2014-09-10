@@ -15,19 +15,33 @@ body
 #header
 {
     background-color: yellow;
-    text-align: center;   
-    
+    text-align: center;       
     background-color: #475E75;
     box-shadow: 0px 1px 4px #555;
 }
 
 #actu
 {
-    /*background-color: #C2B49C;*/
     width: 50%;
     margin: auto;
     font-size: 80%;
 }
+
+#article
+{
+    width: 50%;
+    margin: auto;
+    font-size: 80%;
+    background-color: #FFF6E7;
+    color: #756953;
+    border-top: 2px solid #C2B49C;
+    border-bottom: 2px solid #C2B49C;
+    margin-top: 20px;
+    padding-left: 5px;
+    box-shadow: 1px 1px 5px #555;
+}
+
+
 
 .article
 {
@@ -46,14 +60,8 @@ body
     margin-top: 20px;
 }
 
-.article h2
+.article p, #article p
 {
-   // background-color: blue;
-}
-
-.article p
-{
-    //background-color: white;
     padding-left: 10px;
     padding-bottom: 10px;
     padding-top: 5px;    
